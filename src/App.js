@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <home/>
+      <Home />
     </div>
   );
 }
 
 export default App;
+
+
+  
+
