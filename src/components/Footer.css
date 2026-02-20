@@ -1,0 +1,270 @@
+/* Styles for Footer component */
+
+.footer {
+  background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  padding: 32px 16px;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.footer-col h4 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #0f172a;
+}
+
+.footer-col p {
+  margin: 0 0 12px 0;
+  color: #374151;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.footer-col li:hover {
+  color: #111827;
+  cursor: pointer;
+}
+
+/* Logo section */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  color: #2a2c2e;
+}
+
+
+.footer-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+
+/* Bottom area */
+.footer-bottom {
+  border-top: 1px solid #2a2c2e;
+  margin-top: 24px;
+  padding-top: 16px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.bottom-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.bottom-links span {
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.bottom-links span:hover {
+  color: #111827;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .bottom-links {
+    justify-content: center;
+  }
+}
+
+
+.footer {
+  background: #f8fafc;
+  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  padding: 32px 16px;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.footer-col h4 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #0f172a;
+}
+
+.footer-col p {
+  margin: 0 0 12px 0;
+  color: #374151;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.footer-col li:hover {
+  color: #111827;
+  cursor: pointer;
+}
+
+/* Logo section */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Social icons (assumes icon font or svg inline) */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.social-icons i,
+.social-icons svg {
+  font-size: 18px;
+  color: #374151;
+  transition: color .15s ease;
+}
+
+.social-icons i:hover,
+.social-icons svg:hover {
+  color: #0f172a;
+  cursor: pointer;
+}
+
+/* Bottom area */
+.footer-bottom {
+  border-top: 1px solid #e6e9ee;
+  margin-top: 24px;
+  padding-top: 16px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.bottom-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.bottom-links span {
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.bottom-links span:hover {
+  color: #111827;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .bottom-links {
+    justify-content: center;
+  }
+}
