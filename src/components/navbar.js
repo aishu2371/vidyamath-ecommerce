@@ -10,7 +10,7 @@ export default function Navbar({ cartCount = 0 }) {
         </div>
 
         <nav style={styles.navLinks} aria-label="Main navigation">
-          <a href="/" style={styles.link}>Shop</a>
+          <a href="/" style={styles.link}>Home</a>
           <a href="/categories" style={styles.link}>Categories</a>
           <a href="/about" style={styles.link}>About</a>
         </nav>
@@ -21,7 +21,7 @@ export default function Navbar({ cartCount = 0 }) {
 
 const styles = {
   navbar: {
-    maxWidth: 1100,
+    maxWidth: 1300,
     margin: "0 auto",
     display: "flex",
     alignItems: "center",

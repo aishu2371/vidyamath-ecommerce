@@ -1,0 +1,99 @@
+.hotdeals-section {
+  width: 100%;
+  padding: 40px 60px;
+  font-family: "Segoe UI", sans-serif;
+  background: #fff;
+}
+
+.hotdeals-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #000;
+}
+
+/* MAIN BANNER */
+
+.banner {
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(180deg, #9c0a77, #8b0a6b);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* LEFT SIDE */
+
+.hero-left {
+  color: #fff;
+  max-width: 45%;
+}
+
+.hero-left h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.tc {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* RIGHT SIDE */
+
+.hero-right {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-products {
+  height: 240px;
+  object-fit: contain;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .hero-banner {
+    height: 260px;
+    padding: 0 40px;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+
+  .hero-products {
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 30px;
+    text-align: center;
+  }
+
+  .hero-left {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .hero-right {
+    justify-content: center;
+  }
+
+  .hero-products {
+    height: 180px;
+  }
+}

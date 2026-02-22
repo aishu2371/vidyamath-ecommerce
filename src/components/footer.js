@@ -1,62 +1,111 @@
 import React from "react";
-import logo from "../assets/logo (1) (1).jpg"; // adjust filename if different
 import "./Footer.css";
-function Footer() {
+
+const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="main-footer">
       <div className="footer-container">
 
-        {/* Column 1 */}
         <div className="footer-col">
-          <div className="logo-section">
-            <h3>Vidyamath</h3>
-          </div>
-          <p>
-         Resources and study material to help students learn and master mathematics.
-          </p>
-
-        </div>
-
-        {/* Column 2 */}
-        <div className="footer-col">
-          <h4>Shop</h4>
+          <h4>Discover</h4>
           <ul>
-            <li>Workbooks</li>
-            <li>Kits</li>
+            <li>Adani One ICICI Bank Credit Cards</li>
+            <li>Offer & Discount</li>
+            <li>Bill Payments</li>
+            <li>Blogs</li>
+            <li>Domestic Flights</li>
+            <li>International Flights</li>
+            <li>International Airlines</li>
+            <li>Travel Insurance</li>
+            <li>User Journey</li>
           </ul>
         </div>
 
-        {/* Column 3 */}
         <div className="footer-col">
-          <h4>Help</h4>
+          <h4>Services</h4>
           <ul>
-            <li>FAQ</li>
-            <li>Shipping &amp; Returns</li>
+            <li>Flight Booking</li>
+            <li>Hotels</li>
+            <li>Cab Booking</li>
+            <li>Duty Free</li>
+            <li>Food & Beverages</li>
+            <li>Pranam Service</li>
+            <li>Parking</li>
+            <li>Porter</li>
+            <li>Lounge</li>
+            <li>Lost & Found</li>
+            <li>All Services</li>
           </ul>
         </div>
 
-        {/* Column 4 */}
         <div className="footer-col">
-          <h4>About</h4>
+          <h4>Airport Businesses</h4>
           <ul>
-            <li>Our Story</li>
+            <li>Duty Free</li>
+            <li>Commercial</li>
+            <li>General Aviation</li>
+            <li>Tenders</li>
+          </ul>
+        </div>
+
+        <div className="footer-col">
+          <h4>Help & Support</h4>
+          <ul>
+            <li>Contact Us</li>
+            <li>Feedback</li>
+            <li>Track Refund Status</li>
+            <li>FAQs</li>
+          </ul>
+
+          <h4 className="mt">Company</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Awards & Accolades</li>
+            <li>CSMIA Reports</li>
             <li>Sustainability</li>
+            <li>Environment Management</li>
+            <li>Newsroom</li>
           </ul>
         </div>
 
+        <div className="footer-col right-col">
+          <h4>Scan to Download App</h4>
+
+          <div className="qr-box"></div>
+
+          <div className="store-btns">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="appstore" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg" alt="playstore" />
+          </div>
+
+          <h4 className="mt">Our Awards</h4>
+          <div className="awards">
+            <div className="award-item">🏆 Case Study Presentation Award, 2024</div>
+            <div className="award-item">🏅 Greentech Award, 2024</div>
+            <div className="award-item">🥇 DG+ Award, 2023</div>
+          </div>
+        </div>
+
       </div>
 
-      {/* Bottom Section */}
+      <hr />
+
       <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Vidyamath. All rights reserved.</p>
-        <div className="bottom-links">
-          <span>Privacy</span>
-          <span>Terms</span>
+        <div className="copyright">
+          ©2026 Adani One · <a href="#">Privacy Policy</a> · <a href="#">Terms & Conditions</a>
+        </div>
+
+        <div className="social-icons">
+          <i className="fab fa-facebook-f"></i>
+          <i className="fab fa-x-twitter"></i>
+          <i className="fab fa-linkedin-in"></i>
+          <i className="fab fa-youtube"></i>
+          <i className="fab fa-instagram"></i>
+          <i className="fab fa-whatsapp"></i>
         </div>
       </div>
+
     </footer>
   );
-}
-
+};
 export default Footer;
-
