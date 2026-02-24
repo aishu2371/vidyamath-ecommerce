@@ -130,22 +130,18 @@ hr{
 }
 
 /* SOCIAL ICONS */
-.social-icons{
+.social-icons ul {
     display:flex;
+    list-style: none;
     gap:14px;
 }
 
-.social-icons i{
-    width:40px;
-    height:40px;
-    border:1px solid #e0e0e0;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    cursor:pointer;
-    transition:0.3s;
-    color:#000;
+.social-icons ul li a{
+    font-size:14px;
+   text-decoration:none;
+    color:#6a6a6a;
+    margin:0 6px;
+
 }
 
 .social-icons i:hover{

@@ -7,44 +7,34 @@ const Footer = () => {
       <div className="footer-container">
 
         <div className="footer-col">
-          <h4>Discover</h4>
+          <h4>Shop</h4>
           <ul>
-            <li>Adani One ICICI Bank Credit Cards</li>
-            <li>Offer & Discount</li>
-            <li>Bill Payments</li>
-            <li>Blogs</li>
-            <li>Domestic Flights</li>
-            <li>International Flights</li>
-            <li>International Airlines</li>
-            <li>Travel Insurance</li>
-            <li>User Journey</li>
+            <li>Candles</li>
+            <li>Krishna poshak</li>
+            <li>Jewellery</li>
+            <li>Cosmetic</li>
+            
           </ul>
         </div>
 
         <div className="footer-col">
-          <h4>Services</h4>
+          <h4>Help</h4>
           <ul>
-            <li>Flight Booking</li>
-            <li>Hotels</li>
-            <li>Cab Booking</li>
-            <li>Duty Free</li>
-            <li>Food & Beverages</li>
-            <li>Pranam Service</li>
-            <li>Parking</li>
-            <li>Porter</li>
-            <li>Lounge</li>
-            <li>Lost & Found</li>
-            <li>All Services</li>
+            <li>FAQ</li>
+            <li>Shipping & Returns</li>
+            <li>Size Guide</li>
+            <li>Contact Us</li>
+            
           </ul>
         </div>
 
         <div className="footer-col">
-          <h4>Airport Businesses</h4>
+          <h4>About</h4>
           <ul>
-            <li>Duty Free</li>
-            <li>Commercial</li>
-            <li>General Aviation</li>
-            <li>Tenders</li>
+            <li>Our Story</li>
+            <li>Sustainability</li>
+            <li>Carrers</li>
+            <li>Testimonials</li>
           </ul>
         </div>
 
@@ -57,34 +47,10 @@ const Footer = () => {
             <li>FAQs</li>
           </ul>
 
-          <h4 className="mt">Company</h4>
-          <ul>
-            <li>About Us</li>
-            <li>Awards & Accolades</li>
-            <li>CSMIA Reports</li>
-            <li>Sustainability</li>
-            <li>Environment Management</li>
-            <li>Newsroom</li>
-          </ul>
+          
         </div>
 
-        <div className="footer-col right-col">
-          <h4>Scan to Download App</h4>
-
-          <div className="qr-box"></div>
-
-          <div className="store-btns">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="appstore" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg" alt="playstore" />
-          </div>
-
-          <h4 className="mt">Our Awards</h4>
-          <div className="awards">
-            <div className="award-item">🏆 Case Study Presentation Award, 2024</div>
-            <div className="award-item">🏅 Greentech Award, 2024</div>
-            <div className="award-item">🥇 DG+ Award, 2023</div>
-          </div>
-        </div>
+        
 
       </div>
 
@@ -92,16 +58,14 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="copyright">
-          ©2026 Adani One · <a href="#">Privacy Policy</a> · <a href="#">Terms & Conditions</a>
+          ©2026 Vidyamath.com All rights reserved. 
         </div>
 
         <div className="social-icons">
-          <i className="fab fa-facebook-f"></i>
-          <i className="fab fa-x-twitter"></i>
-          <i className="fab fa-linkedin-in"></i>
-          <i className="fab fa-youtube"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-whatsapp"></i>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
         </div>
       </div>
 

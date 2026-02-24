@@ -1,0 +1,11 @@
+/* Styles for the Home (Landing) component */
+.landing-page {
+  background: white; /* off-white */
+}
+
+.landing-page .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}

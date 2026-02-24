@@ -3,13 +3,14 @@ import Navbar from "./navbar";
 import Footer from "./Footer";
 import ProductCard from "./ProductCard";
 import Banner from "./Banner";
+import "./Home.css";
 
 export default function Landing() {
   return (
-    <div>
+    <div className="landing-page">
       <Navbar />
-      <Banner   />
-      <ProductCard />
+        <Banner />
+        <ProductCard />
       <Footer />
     </div>
   );

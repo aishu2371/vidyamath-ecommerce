@@ -1,31 +1,26 @@
 import React from "react";
 import "./Banner.css";
+import winterImg from "../assets/download.jpg"; // apni image yaha daalo
 
-const Banner = () => {
+function Banner() {
   return (
-    <section className="hotdeals-section">
-      <h2 className="hotdeals-title">Hot Deals</h2>
+    <section className="hero">
+      <div className="hero-left">
+        <img src={winterImg} alt="Winter Collection" />
+      </div>
 
-      <div className="hero-banner">
-        {/* LEFT CONTENT */}
-        <div className="hero-left">
-          <h1>
-            Up to 25% off <br /> at Mumbai Duty Free.
-          </h1>
-          <p className="tc">T&C apply.</p>
-        </div>
+      <div className="hero-right">
+        <span className="discount">60% Discount</span>
+        <h1>
+          Oxidised <br /> Jewellery
+        </h1>
+        <p>Best Collection By 2026!</p>
 
-        {/* RIGHT CONTENT */}
-        <div className="hero-right">
-          <img
-            src="https://i.imgur.com/1XJY7kU.png"
-            alt="products"
-            className="hero-products"
-          />
-        </div>
+        <button className="shop-btn">Shop Now</button>
       </div>
     </section>
   );
-};
+}
 
-export default HeroBanner;
+export default Banner;
+

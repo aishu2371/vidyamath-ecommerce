@@ -21,7 +21,7 @@ export default function Navbar({ cartCount = 0 }) {
 
 const styles = {
   navbar: {
-    maxWidth: 1300,
+    maxWidth: 1100,
     margin: "0 auto",
     display: "flex",
     alignItems: "center",
