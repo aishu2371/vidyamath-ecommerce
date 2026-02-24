@@ -28,7 +28,7 @@ const styles = {
     justifyContent: "space-between",
     padding: "12px 16px",
     borderBottom: "1px solid #e6e6e6",
-    background: "#fff",
+    background: "transparent",
     position: "sticky",
     top: 0,
     zIndex: 40,
