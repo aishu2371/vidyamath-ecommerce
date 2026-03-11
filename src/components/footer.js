@@ -63,8 +63,8 @@ const Footer = () => {
 
         <div className="social-icons">
           <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>

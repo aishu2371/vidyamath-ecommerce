@@ -1,9 +1,10 @@
 import React from "react";
 import "./Banner.css";
+import heroImage from "../assets/frontpage.webp";
 
 function Banner() {
   return (
-    <section className="hero">
+    <section className="hero" style={{ backgroundImage: `linear-gradient(135deg, rgba(245,247,250,0.9) 0%, rgba(232,238,245,0.9) 100%), url(${heroImage})` }}>
       <div className="hero-right">
         <span className="discount">🎉 Limited Time Offer</span>
         <h1>

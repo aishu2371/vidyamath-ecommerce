@@ -5,12 +5,12 @@ import ProductCard from "./ProductCard";
 import Banner from "./Banner";
 import "./Home.css";
 
-export default function Landing() {
+export default function Home() {
   return (
     <div className="landing-page">
       <Navbar />
-        <Banner />
-        <ProductCard />
+      <Banner />
+      <ProductCard />
       <Footer />
     </div>
   );

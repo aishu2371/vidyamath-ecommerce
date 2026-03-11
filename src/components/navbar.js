@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import vidyaLogo from "../assets/logo (1) (1).jpg"; // adjust filename if different
 
 export default function Navbar({ cartCount = 0 }) {
@@ -10,9 +11,15 @@ export default function Navbar({ cartCount = 0 }) {
         </div>
 
         <nav style={styles.navLinks} aria-label="Main navigation">
-          <a href="/" style={styles.link}>Home</a>
-          <a href="/categories" style={styles.link}>Categories</a>
-          <a href="/about" style={styles.link}>About</a>
+          <Link to="/" style={styles.link}>
+            Home
+          </Link>
+          <Link to="/categories" style={styles.link}>
+            Categories
+          </Link>
+          <Link to="/about" style={styles.link}>
+            About
+          </Link>
         </nav>
       </header>
     </>
